@@ -1,99 +1,144 @@
-* {
-	margin:0;
-}
-body {
+
+main {
 	font-family: Georgia, serif;
-	font-size: 16px;
+	font-size: 25px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	background-color: #e3adfc;
-	color: #E9967A;	
+	background-color: #d9a5d9;
+	color:  #ff0066;	
+	margin-left:auto;
+	margin-right:auto;
 }
-.navbar {
-	background-color: #e3adfc;
-	
+.navbar-brand {
+	color: #ff0066; 
+	font-size: 30px;
 }
 .nav-link {
 	color: #cd9dec;
 }	
 .nav-link:hover {
-	color: black;
+	color: #ff0066;
 }
-.btn-outline-success {
-	color: #e3adfc;
+form {
+	background: #fff;
+	width: 350px;
+	height: 55px;
 }
-
-
-header {
-	background-color: #e3adfc;
-	color: #E9967A;	
-	height: 50px;
-	font-family: Georgia, serif;
-	padding:10px;
-	margin-top:20px;
+form button {
+	margin-left: 5px;
+	width: 200px;
+	height: 56px;  
+	background-color:#d9a5d9;
+	color: #ff0066;
+	border: none;
+	font-weight: bold;
+}
+button:hover {
+	opacity: 0.8;
+	color:  #9966ff;
 	
 }
-
 #logo {
-
   display: inline-block;
   margin: -15px; 
-  height: 50px;
+  height: 60px;
   width: 50px; 
-  border-radius: 40%; 
-  
-
+  border-radius: 50%; 
 }
-	
 
+#firstline {
+	border: 5px solid;
+	height: 50px;
+	width: 450px;
+	margin: 20px;
+	padding: 5px;
+}
+#svg {
+	height: 80px;
+	width: 300px;
+	margin-left: 350px;
+	margin-top: -80px;
+}
 
+#emailForm {
+	height: 50px;
+	width: 450px;
+	font-weight: bold;
+	display: flex;
+	font-size: 20px;
+	border: 5px solid;
+}
+
+#emailForm input {
+	border: 1px;
+	font-size: 10px;
+	width: 200px;
+}
+#emailForm label {
+	font-size: 25px;
+}
+
+#emailForm button {
+	height: 41px;
+	color: #ff0066;
+	font-weight: bold;
+	font-size: 15px;
+}
+#emailForm button:hover {
+	opacity: 0.8;
+	color:  #9966ff;
+}
 nav { 
-
-	padding:10px;
+	background-color: #9966ff;
 	font-weight: bold;
 	font-size: 20px;
+	font-family: Georgia, serif;
+	word-spacing: 3px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-main {
-	padding: 20px;
-	background-color: #d63384;
-	color: #cd9dec;
-
+.alert {
+	color: #ff0066; 
+	margin: 20px;
+	display: inline-block;
+	
 }
-#Team {
-	height: 50%;
+iframe {
+	Width: 400px;
 }
-#Flowers {
-	height: 50%;
+#videoText {
+	text-align: center;
+	border: 1px solid;
 }
-#crochet box {
-	height: 25%;
+#videoDescription {
+	border: 3px solid;
+	width: 600px;
 }
-
-
 footer {
-	background-color: #e3adfc;
+	background-color: #ff0066;
 	font-size: 14px;
 	font-style: Georgia, serif;
 	color: black;
+	font-weight: bold;
 	margin-top:auto;
-	padding: 10px;
-	
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 table, th, td {
 	border: 1px solid;
-	color: black;
+	color: #9966ff;
 	border-spacing: 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: white;
+	font-size: 20px;
 }
-
 th{
 	font-family: Georgia, serif;
-	background-color: #;
 }
-
 th, td {
 	padding: 10px 30px;
 }
