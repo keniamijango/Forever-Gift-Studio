@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,16 +14,16 @@
 		"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<link href="style.css" rel="stylesheet">		
 	</head>
+	
 	<body>
-
 		<div class="sticky-top">
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
 			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
-			<nav class="navbar bg-body-tertiary">
+			<nav class="navbar">
 			  <div class="container-fluid">
 				<a class="navbar-brand" href="#">
 				  <img id="logo" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-karolina-grabowska-4197491.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -32,26 +33,27 @@
 			</nav>
 		</div>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
+				<ul class="navbar-nav">
 				<a class="nav-link active" aria-current="page" href="#">Home</a>
-				<a class="nav-link" href="#">About Me</a>
+				<a class="nav-link" href="#">About</a>
 				<a class="nav-link" href="#">Creations</a>
 				<a class="nav-link" href="#">Shop</a>
 				<form class="d-flex" role="search">
 					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Search</button>
+					<button type="submit">Search</button>
 					 </form>
-				  </div>
-				</div>
-			  </div>
-			</nav>
+				 </ul>
+			</div>
+		</div>
 		</nav>
-		</div> 
+	
 	<main>
+		<div id="firstline" class="container-fluid">
+			<h4> Find the perfect gift this season! </h4>
+			<img id="svg" src="holiday_bear.svg" alt="Holiday teddy bear with gift">
+		</div>
 		
-		<h4> Find the perfect gift this season! </h4>
-			
-		<div id="carouselExampleIndicators" class="carousel slide">
+		<section id="carouselExampleIndicators" class="carousel slide">
 			  <div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -66,7 +68,6 @@
 				</div>
 				<div class="carousel-item">
 				  <img src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-anete-lusina-4792072.jpg" class="rounded mx-auto d-block w-50" alt="Knitted toy near yarns and needle">
-				</div>
 			  </div>
 			  
 			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -77,54 +78,96 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			  </button>
-		</div>
-		<div class="alert alert-success" role="alert">
+			  </div>
+		</section>
+		
+		<section class="container" >
+		<div class="alert alert-danger" role="alert"> 
 		  <h4 class="alert-heading">Welcome!</h4>
 		  <p>You found the perfect place to find the gift you know they'll love. Celebrate your oocassion with any eternal flower bouquet or a crochet gift!</p>
 		  <hr>
 		  <p class="mb-0">Be ready to put a smile on their face!.</p>
 		</div>
 		
-
-		<div class="card-group">
-			  <div class="card">
-				<img id="crochet box" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-ksenia-chernaya-5807029.jpg" class="card-img-top" alt="Basket full of knitting yarns">
-				<div class="card-body">
-				  <h5 class="card-title">Shop our Crochet gifts</h5>
-				  <a href="#" class="btn btn-primary">Crochet gifts</a>
+		<div class= "container" >
+			<div class="card-group">
+				<div class="row gy-3">
+					<div class="col-md-4">
+						<div class="card">
+							<img id="crochet box" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-ksenia-chernaya-5807029.jpg" class="card-img-top" alt="Basket full of knitting yarns">
+								<div class="card-body">
+								  <h5 class="card-title">Shop our Crochet gifts</h5>
+								  <a href="#" class="btn btn-dark">Crochet gifts</a>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img id="Flowers" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\Logo (2).jpg" class="card-img-top" alt="Gift box and flowers on wooden surface">
+							<div class="card-body">
+							  <h5 class="card-title">Shop our Ribbon Flowers</h5>
+							   <a href="#" class="btn btn-dark">Eternal Flowers</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						  <div class="card">
+							<img id="Team" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-pavel-danilyuk-6925410.jpg" class="card-img-top" alt="Women Holding Flowers">
+							<div class="card-body">
+							  <h5 class="card-title">Want to join our team?!</h5>
+							  <a href="#" class="btn btn-dark">Sign up!</a>				
+							</div>
+						  </div>
+					</div>
+					<div class="alert alert-danger" role="alert">
+						<h4 class="alert-heading"></h4>
+						<p>Enter your email to get our monthly newsletter that features our sales throughout the month and insights on the creation of our flowers and crochets items.</p>
+						<form class= ".form-control" id="emailForm" >
+								<label for="email">Email:</label>
+								<input type="email" id="email" name="email" required>
+								<button type="button" onclick="performTask();">Join Newsletter!</button>
+						</form>
+					</div>
+					
 				</div>
-			  </div>
-			  <div class="card">
-				<img id="Flowers" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\Logo (2).jpg" class="card-img-top" alt="Gift box and flowers on wooden surface">
-				<div class="card-body">
-				  <h5 class="card-title">Shop our Ribbon Flowers</h5>
-				   <a href="#" class="btn btn-primary">Eternal Flowers</a>
-				</div>
-			  </div>
-			  <div class="card">
-				<img id="Team" src="C:\Users\marti\OneDrive\Desktop\My Website Mis424\pexels-pavel-danilyuk-6925378.jpg" class="card-img-top" alt="3 girls drinking coffee at their workplace">
-				<div class="card-body">
-				  <h5 class="card-title">Want to join our team?!</h5>
-				  <a href="#" class="btn btn-primary">Sign up!</a>				
-				  </div>
-			  </div>
+			</div>
 		</div>
-			
-		<div class="alert alert-success" role="alert">
-		  <h4 class="alert-heading">Welcome!</h4>
+		<div class="container py-5" id="videoDescription">
+			<p>Below is a quick video demonstrating how our eternal roses are made!</p>
+
+			<div class="row">
+				<div class="col-lg-6 col-md-12" class="aign-middle">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/vv8cXc8jkBQ?si=tcmQuR26eu01c-EP"
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+				gyroscope; picture-in-picture; web-share" 
+				allowfullscreen></iframe>
+				</div>
+			</div>
+				 <div id="videoText">
+					<h3>Red Roses Flower 🌹✨| Satin Ribbon Flower Tutorial part 7</h3>
+				 </div>
+		</div> 
+		</section> 
+		
+		<div class="container">
+		<div class="alert alert-danger" role="alert">
+		  <h4 class="alert-heading" ></h4>
 		  <p>The following are the eternal flower prices; you can find more information when you select 'Eternal Flowers' above!</p>
-		  <hr>
 		  <p class="mb-0">Don't forget to check out our crochet gifts and sign up to become part of our team!.</p>
 		</div>
 			
-			<table>
+			
+			<table class="table-primary">
+			  <thead>
 				<tr>
-					<th>Item/Add Ons</th>
-					<th>Quantity</th>
-					<th>Price</th>
+				  <th scope="col">Item/Add Ons</th>
+				  <th scope="col">Quantity</th>
+				  <th scope="col">Price</th>
 				</tr>
+			  </thead>
+			  <tbody>
 				<tr>
-					<td rowspan="5">Roses</td>
+					<th scope="row" rowspan="5">Roses</th>
 					<td>1</td>
 					<td>$2.50</td>
 				</tr>
@@ -145,37 +188,34 @@
 					<td>$200</td>
 				</tr>
 				<tr>
-					<td>Crown</td>
+				  <th scope="row">Crown</th>
 					<td>1</td>
 					<td>$5</td>
 				</tr>
 				<tr>
-					<td>Butterfly</td>
+				  <th scope="row">Butterfly</th>
 					<td>1</td>
 					<td>$1</td>
 				</tr>
 				<tr>
-					<td>Custom Message</td>
+					<th scope="row">Custom Message</th>
 					<td>1</td>
 					<td>$8</td>
 				</tr>
 				<tr>
-					<td>Plushies</td>
+					<th scope="row">Plushies</th>
 					<td>1</td>
 					<td>$5</td>
 				</tr>
 				<tr>
-					<td>Heart Box</td>
+					<th scope="row">Heart Box</th>
 					<td>1</td>
 					<td>$10</td>
 				</tr>
 				<tr>
 					<th colspan="3">Ribbon colors to choose from: Red, Pink, Blue, Purple, Brown, Yellow, Orange, White, Black </th>
-					
+			  </tbody>
 			</table>
-					<div id="Eternal flowers"></div>
-			<div id="Crochet Gifts"></div>
-			<div id="Socials"></div>
 	</main>
 		
 	<footer class="footer mt-auto py-3">
@@ -194,13 +234,22 @@
 		</div>		
 	</footer>
 		
+	<script>
+	
+		function performTask(){
+			var email = document.getElementById('email').value;
+ 
+			alert('Entered email: ' + email);
+		}
+	</script>
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity
 	="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
-	crossorigin="anonymous">
-	</script>
+	crossorigin="anonymous"></script>
 		
 	</body>
 </html>
+
 
 
 
